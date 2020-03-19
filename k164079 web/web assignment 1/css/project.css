@@ -1,0 +1,561 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+nav {
+  position: absolute;
+  display: flex;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 130px;
+  padding: 10px 90px;
+  box-sizing: border-box;
+  background: rgba(24, 23, 23, 0.829);
+  justify-content: center;
+  box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.651);
+}
+
+nav .logo {
+  padding-top: 10px;
+  height: 80px;
+  font-size: 40px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-family: "Belleza", sans-serif;
+  color: white;
+}
+
+nav ul {
+  list-style: none;
+  float: right;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  position: absolute;
+  top: 45%;
+}
+
+nav ul li a {
+  line-height: 80px;
+  color: rgb(133, 126, 126);
+  padding: 12px 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  background: rgba(0, 0, 0, 0);
+  border-radius: 6px;
+  color: white;
+}
+
+nav ul li a.active {
+  color: #fff;
+  border-radius: 6px;
+  background-color: rgba(61, 59, 59, 0.452);
+}
+
+section {
+  height: 100vh;
+  background-color: rgba(26, 24, 24, 0.877);
+  background-size: cover;
+  background-position: center;
+}
+
+.section {
+  height: 100vh;
+  background-color: rgba(26, 24, 24, 0.877);
+  background-size: cover;
+  background-position: center;
+}
+
+.intro {
+  position: absolute;
+  height: 24vh;
+  width: 20%;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  top: 40%;
+  left: 6%;
+  box-shadow: 15px 10px 25px rgba(27, 12, 12, 0.397);
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+
+.introduction {
+  width: 100%;
+  justify-content: center;
+  display: grid;
+  border-bottom: 3px solid black;
+}
+
+.features {
+  margin-top: 50px;
+  width: 100%;
+  justify-content: center;
+  border-bottom: 3px solid black;
+}
+
+.proj-head {
+  background-color: rgba(40, 48, 45, 0.281);
+  padding: 15px;
+  margin: 25px;
+  font-weight: bolder;
+}
+
+.intro-bio {
+  position: absolute;
+  height: 20vh;
+  width: 28%;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  top: 40%;
+  left: 35%;
+  box-shadow: 15px 10px 25px rgba(27, 12, 12, 0.397);
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+}
+
+.bio-intro2 {
+  width: 800px;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.intro-cv {
+  position: absolute;
+  height: 20vh;
+  width: 40%;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  top: 40%;
+  left: 30%;
+  box-shadow: 15px 10px 25px rgba(27, 12, 12, 0.397);
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+}
+
+.mock {
+  padding-top: 20px;
+}
+
+.prop {
+  position: absolute;
+  height: 18vh;
+  width: 30%;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  top: 40%;
+  left: 20%;
+  box-shadow: 15px 10px 25px rgba(27, 12, 12, 0.397);
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.quote {
+  position: absolute;
+  height: 20vh;
+  width: 30%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  top: 47%;
+  left: 34%;
+  box-shadow: 15px 10px 25px rgba(27, 12, 12, 0.397);
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  padding: 15px;
+}
+
+.name {
+  color: rgb(253, 105, 112);
+  padding: 10px;
+  padding-top: 12px;
+  margin-top: 20px;
+}
+
+.wrap {
+  position: relative;
+}
+
+.speak {
+  font-size: 15px;
+  font-style: italic;
+}
+
+.photo {
+  width: 230px;
+  height: 310px;
+  display: flex;
+  top: 30%;
+  left: 75%;
+  border-radius: 40px;
+  position: absolute;
+}
+
+.hotel {
+  width: 320px;
+  height: 90px;
+  display: flex;
+  top: 42%;
+  left: 55%;
+  position: absolute;
+}
+
+button {
+  cursor: pointer;
+}
+
+.button {
+  position: absolute;
+  display: flex;
+  top: 70%;
+  left: 10%;
+  border: 2px solid;
+  padding: 12px 28px;
+  font-size: 14px;
+  color: rgb(253, 105, 112);
+  background-color: rgba(65, 61, 61, 0.534);
+  border-color: rgb(253, 105, 112);
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Belleza", sans-serif;
+  font-weight: bold;
+}
+
+.button-intro a {
+  text-decoration: none;
+  position: absolute;
+  display: flex;
+  top: 70%;
+  left: 20%;
+  border: 2px solid;
+  padding: 12px 28px;
+  font-size: 18px;
+  color: rgb(255, 132, 138);
+  background-color: rgba(65, 61, 61, 0.534);
+  border-color: rgb(253, 105, 112);
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Belleza", sans-serif;
+  font-weight: bold;
+}
+
+.button-diff a {
+  text-decoration: none;
+  position: absolute;
+  display: flex;
+  top: 70%;
+  left: 42%;
+  border: 2px solid;
+  padding: 12px 28px;
+  font-size: 18px;
+  color: rgb(255, 132, 138);
+  background-color: rgba(65, 61, 61, 0.534);
+  border-color: rgb(253, 105, 112);
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Belleza", sans-serif;
+  font-weight: bold;
+}
+
+.button-con a {
+  text-decoration: none;
+  position: absolute;
+  display: flex;
+  top: 70%;
+  left: 67%;
+  border: 2px solid;
+  padding: 12px 28px;
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(255, 132, 138);
+  background-color: rgba(65, 61, 61, 0.534);
+  border-color: rgb(253, 105, 112);
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Belleza", sans-serif;
+}
+
+.button-desc a {
+  text-decoration: none;
+  position: absolute;
+  display: flex;
+  top: 70%;
+  left: 23%;
+  border: 2px solid;
+  padding: 12px 28px;
+  font-size: 18px;
+  color: rgb(255, 132, 138);
+  background-color: rgba(65, 61, 61, 0.534);
+  border-color: rgb(253, 105, 112);
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Belleza", sans-serif;
+  font-weight: bold;
+}
+
+.button-ft a {
+  text-decoration: none;
+  position: absolute;
+  display: flex;
+  top: 70%;
+  left: 42%;
+  border: 2px solid;
+  padding: 12px 28px;
+  font-size: 18px;
+  color: rgb(255, 132, 138);
+  background-color: rgba(65, 61, 61, 0.534);
+  border-color: rgb(253, 105, 112);
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Belleza", sans-serif;
+  font-weight: bold;
+}
+
+.button-mock a {
+  text-decoration: none;
+  position: absolute;
+  display: flex;
+  top: 70%;
+  left: 60%;
+  border: 2px solid;
+  padding: 12px 28px;
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(255, 132, 138);
+  background-color: rgba(65, 61, 61, 0.534);
+  border-color: rgb(253, 105, 112);
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Belleza", sans-serif;
+}
+
+.bio1 {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 200vh;
+}
+
+.bio2 {
+  padding: 0;
+  background-color: white;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+}
+
+.intro2 {
+  text-align: justify;
+  width: 520px;
+  padding: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  box-shadow: 8px 8px 25px rgba(27, 12, 12, 0.397);
+}
+
+.diff2 {
+  align-items: center;
+  width: 1180px;
+}
+
+.ft2 {
+  width: 1500px;
+  /*display: grid;
+  grid-template-columns: 1fr 1fr;*/
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+.admin {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 0px;
+}
+
+.con2 {
+  align-items: center;
+  width: 1180px;
+}
+
+.proj-name {
+  font-size: 25px;
+  text-transform: capitalize;
+  color: rgb(253, 105, 112);
+  font-family: "Belleza", sans-serif;
+}
+
+.photo-grid {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 50px;
+}
+
+.grid {
+  width: 500px;
+}
+.mockups {
+  margin-top: 30px;
+}
+
+.header {
+  margin: 0;
+  padding: 15px;
+  background-color: rgb(4, 2, 36);
+  display: flex;
+  color: white;
+}
+
+.cv-name {
+  font-weight: bolder;
+  font-size: 40px;
+  margin-left: 20px;
+}
+
+.cv-prof {
+  font-size: 22px;
+  margin-left: 20px;
+}
+
+.cv {
+  position: absolute;
+  color: rgb(4, 2, 36);
+  width: 60%;
+  box-shadow: 15px 10px 25px rgba(27, 12, 12, 0.397);
+  height: 210vh;
+}
+
+.whole {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.sidebar {
+  display: -webkit-flex;
+  display: flex;
+}
+
+.cv-main {
+  flex: 4;
+  background: white;
+  padding: 20px;
+  height: 100vh;
+}
+
+.cv-main-edu {
+  flex: 4;
+  background: white;
+  padding: 10px;
+  height: 40vh;
+}
+
+.cv-obj-summary {
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 21px;
+}
+
+.project {
+  margin-bottom: 20px;
+}
+
+.skill {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.interest {
+  margin-bottom: 15px;
+}
+
+.date {
+  margin-bottom: 40px;
+}
+.cv-side-edu {
+  flex: 1;
+  background-color: rgba(255, 255, 255, 0.863);
+  padding-bottom: 10px;
+  padding-top: 7px;
+  height: 30vh;
+}
+
+.cv-side {
+  flex: 1;
+  background-color: rgba(255, 255, 255, 0.863);
+  padding: 10px;
+  height: 205vh;
+}
+
+.cv-obj-header-line {
+  width: 100%;
+}
+
+.cv-obj-header {
+  font-weight: bolder;
+  font-size: 20px;
+  margin-top: 40px;
+}
+
+.cv-obj-header-side {
+  font-size: 20px;
+  margin-top: 30px;
+  font-weight: bolder;
+}
+
+.cv-obj-subheader-side {
+  margin: 0;
+  font-weight: bolder;
+  font-size: 15px;
+}
+
+.cv-obj-para-side {
+  font-size: 15px;
+  margin-top: 5px;
+  margin-bottom: 25px;
+}
+
+.av {
+  flex: 1;
+  height: 192vh;
+  background-color: rgba(26, 17, 17, 0.904);
+}
+
+.edu-head {
+  font-weight: bolder;
+}
+
+.edu-desc {
+  font-size: 15px;
+  font-style: italic;
+}
